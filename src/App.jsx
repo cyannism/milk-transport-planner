@@ -91,7 +91,7 @@ export default function SimulationPlanner() {
       <div className="max-w-5xl mx-auto space-y-10">
         <Card>
           <CardContent>
-            <h2 className="text-2xl font-bold text-gray-800">Transport Planner(v.0.2.1</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Transport Planner(v.0.2.1)</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
               <div className="space-y-1">
                 <Label>Production per Day</Label>
