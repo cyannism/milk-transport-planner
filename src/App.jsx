@@ -5,7 +5,7 @@ const TIMES = ["03:00", "07:00", "14:00"];
 const HOURS = { "03:00": 3, "07:00": 7, "14:00": 14 };
 const DAYS = Array.from({ length: 10 }, (_, i) => `Day ${i + 1}`);
 const TRANSPORT_CAPACITY = 14500;
-const STORAGE_CAPACITY = 16000;
+const STORAGE_CAPACITY = 20000;
 
 function cn(...classes) {
   return classes.filter(Boolean).join(" ");
@@ -91,7 +91,7 @@ export default function SimulationPlanner() {
       <div className="max-w-5xl mx-auto space-y-10">
         <Card>
           <CardContent>
-            <h2 className="text-2xl font-bold text-gray-800">Transport Planner</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Transport Planner(v.0.2.1</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
               <div className="space-y-1">
                 <Label>Production per Day</Label>
