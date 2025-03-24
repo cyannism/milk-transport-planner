@@ -91,10 +91,10 @@ export default function SimulationPlanner() {
       <div className="max-w-5xl mx-auto space-y-10">
         <Card>
           <CardContent>
-            <h2 className="text-2xl font-bold text-gray-800">🚛 Milk Transport Planner</h2>
+            <h2 className="text-2xl font-bold text-gray-800">Transport Planner</h2>
             <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
               <div className="space-y-1">
-                <Label>Milk Production per Day</Label>
+                <Label>Production per Day</Label>
                 <Input type="number" value={milkPerDay} onChange={(e) => setMilkPerDay(Number(e.target.value))} />
               </div>
               <div className="space-y-1">
@@ -126,7 +126,7 @@ export default function SimulationPlanner() {
 
         <Card>
           <CardContent>
-            <h2 className="text-xl font-semibold text-gray-700">📊 Trip Schedule Table</h2>
+            <h2 className="text-xl font-semibold text-gray-700">Trip Schedule Table</h2>
             <div className="overflow-auto rounded-lg border">
               <table className="w-full table-fixed text-sm">
                 <thead className="bg-gray-100">
